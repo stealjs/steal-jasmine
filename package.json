@@ -1,0 +1,53 @@
+{
+  "name": "steal-jasmine",
+  "version": "0.0.1",
+  "description": "A package for Jasmine and StealJS",
+  "main": "steal-jasmine",
+  "system": {
+    "npmIgnore": {
+      "steal": true,
+      "steal-tools": true
+    },
+    "meta": {
+      "jasmine-core#./lib/jasmine-core/jasmine": {
+        "formats": "global",
+        "exports": "jasmineRequire"
+      },
+      "jasmine-core/lib/jasmine-core/jasmine-html": {
+        "deps": [
+          "jasmine-core/lib/jasmine-core/jasmine"
+        ]
+      },
+      "jasmine-core/lib/jasmine-core/boot": {
+        "deps": [
+          "jasmine-core/lib/jasmine-core/jasmine",
+          "jasmine-core/lib/jasmine-core/jasmine-html"
+        ]
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stealjs/steal-jasmine.git"
+  },
+  "keywords": [
+    "StealJS",
+    "Jasmine"
+  ],
+  "author": "Bitovi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stealjs/steal-jasmine/issues"
+  },
+  "homepage": "https://github.com/stealjs/steal-jasmine",
+  "devDependencies": {
+    "steal": "^0.8.2",
+    "steal-tools": "^0.8.2"
+  },
+  "dependencies": {
+    "jasmine-core": "^2.2.0"
+  }
+}
