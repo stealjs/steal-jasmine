@@ -2,6 +2,14 @@
 
 Provides an easy way to run Jasmine tests using [StealJS](http://stealjs.com).
 
+## Install
+
+Install with npm:
+
+```shell
+npm install steal-jasmine --save-dev
+```
+
 ## Use
 
 Add the Steal tag to your page:
