@@ -4,12 +4,12 @@
   "description": "A package for Jasmine and StealJS",
   "main": "steal-jasmine",
   "scripts": {
-	"test": "testee test/test.html --browsers firefox"
+    "test": "testee test/test.html --browsers firefox"
   },
   "system": {
-	"npmAlgorithm": "flat",
+    "npmAlgorithm": "flat",
     "npmIgnore": [
-		"devDependencies"
+      "devDependencies"
 	],
     "meta": {
       "jasmine-core#./lib/jasmine-core/jasmine": {
@@ -51,6 +51,6 @@
     "testee": "^0.3.0-pre.2"
 },
   "dependencies": {
-	"jasmine-core": "^2.2.0"
+    "jasmine-core": "^2.2.0"
   }
 }
