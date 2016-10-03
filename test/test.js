@@ -1,9 +1,14 @@
-import jasmineRequire from "steal-jasmine";
+// TODO: At some point, Testee can be initialized programatically with the
+// `rest` flags. When that is possible, update test case to move import to top.
+let initCalled = false;
+Testee.init = function () {initCalled = true;};
 
-describe("A module", function(){
+import jasmine from "steal-jasmine";
 
-  it("A test", function(){
-    expect(true).toBe(true);
-  });
-
+describe("Steal Jasmine", () => {
+	describe("when using Testee", function () {
+		it("Initializes Testee", () => {
+			expect(initCalled).toBe(true);
+		});
+	});
 });
