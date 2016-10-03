@@ -6,9 +6,9 @@ Testee.init = function () {initCalled = true;};
 import jasmine from "steal-jasmine";
 
 describe("Steal Jasmine", () => {
-	describe("when using Testee", function () {
-		it("Initializes Testee", () => {
-			expect(initCalled).toBe(true);
-		});
-	});
+    describe("when using Testee", function () {
+        it("Initializes Testee", () => {
+            expect(initCalled).toBe(true);
+        });
+    });
 });
