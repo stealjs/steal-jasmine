@@ -1,6 +1,6 @@
 {
   "name": "steal-jasmine",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A package for Jasmine and StealJS",
   "main": "steal-jasmine",
   "scripts": {
@@ -15,7 +15,7 @@
     "npmAlgorithm": "flat",
     "npmIgnore": [
       "devDependencies"
-	],
+    ],
     "meta": {
       "jasmine-core#./lib/jasmine-core/jasmine": {
         "formats": "global",
@@ -54,7 +54,7 @@
     "steal": "^0.8.2",
     "steal-tools": "^0.8.2",
     "testee": "^0.3.0-pre.2"
-},
+  },
   "dependencies": {
     "jasmine-core": "^2.2.0"
   }
