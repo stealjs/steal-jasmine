@@ -51,8 +51,8 @@
   },
   "homepage": "https://github.com/stealjs/steal-jasmine",
   "devDependencies": {
-    "steal": "^0.8.2",
-    "steal-tools": "^0.8.2",
+    "steal": "^0.16.43",
+    "steal-tools": "^0.16.8",
     "testee": "^0.3.0-pre.2"
   },
   "dependencies": {
